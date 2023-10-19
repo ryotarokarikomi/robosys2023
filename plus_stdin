@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# SPDX-FilecopyrightText: 2023 Ryotaro Karikomi ryotaro.karikomi@gmail.com
+
 import sys
 
 ans = 0
