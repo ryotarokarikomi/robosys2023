@@ -1,0 +1,8 @@
+name: test
+on: push
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkouto@v3
+    - name: All test
+      run: bash -xv ./test.bash
