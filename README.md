@@ -6,8 +6,15 @@
 
 
 ## plusコマンド
+このコマンドは標準入力から入力された数字を足し合わせます。
 ![test](https://github.com/ryotarokarikomi/robosys2023/actions/workflows/test.yml/badge.svg)
 
+## 使い方
+### ダウンロード方法
+以下のコマンドでダウンロード
+```
+git clone git@github.com:ryotarokarikomi/robosys2023.git
+```
 
 ## 必要なソフトウェア
   * Python
