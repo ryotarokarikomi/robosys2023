@@ -4,15 +4,15 @@
 
 import sys
 
-ans = [0]
+ans = [0, 1]
 
 for line in sys.stdin:
   try:
     ans[0] += int(line)
-    #ans[1] *= int(line)
+    ans[1] *= int(line)
   except:
     ans[0] += float(line)
-    #ans[1] *= float(line)
+    ans[1] *= float(line)
 
 print(ans[0])
-#print(ans[1])
+print(ans[1])
