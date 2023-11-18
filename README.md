@@ -17,10 +17,17 @@ $ git clone git@github.com:ryotarokarikomi/robosys2023.git
 ```
 
 ### 起動手順
-以下のコマンドでplusコマンドがあるディレクトリに移動。
+* 以下のコマンドでplusコマンドがあるディレクトリに移動。
 ```
 $ cd robosys2023
 ```
+* 実行例
+10までの連続番号を足し合わせる
+```
+$ seq 10 | ./plus
+  55
+```
+
 ## 必要なソフトウェア
   * Python
     * テスト済み: 3.7 ~ 3.10
