@@ -1,7 +1,7 @@
 # robosys2023
 ***ロボットシステム学***
 
-* このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
+* このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです。
   * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 
 
@@ -11,11 +11,16 @@
 
 ## 使い方
 ### ダウンロード方法
-以下のコマンドでダウンロード
+以下のコマンドでダウンロードします。
 ```
-git clone git@github.com:ryotarokarikomi/robosys2023.git
+$ git clone git@github.com:ryotarokarikomi/robosys2023.git
 ```
 
+### 起動手順
+以下のコマンドでplusコマンドに実行許可を与える。
+```
+$ chmod +x plus
+```
 ## 必要なソフトウェア
   * Python
     * テスト済み: 3.7 ~ 3.10
