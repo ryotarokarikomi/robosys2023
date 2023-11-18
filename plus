@@ -14,5 +14,4 @@ for line in sys.stdin:
     ans[0] += float(line)
     ans[1] *= float(line)
 
-print(ans[0])
-print(ans[1])
+print(ans[0], ans[1],end='')

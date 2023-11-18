@@ -9,14 +9,22 @@ ng(){
 
 res=0
 
-out=$(seq 5 | ./plus)
-[ "${out}" = 15 ] || ng "${LINENO}"
+out=($(seq 5 | ./plus))
+[ "${out[0]}" = 15 ] || ng "${LINENO}"
+[ "${out[1]}" = 120 ] || ng "${LINENO}"
+
+echo out[0] = ${out[0]}
+echo out[1] = ${out[1]}
 
 out=$(echo あ | ./plus)
 [ "$?" = 1 ]      || ng "${LINENO}"
 [ "${out}" = "" ] || ng "${LINENO}"
 
 out=$(echo | ./plus)
+[ "$?" = 1 ]      || ng "${LINENO}"
+[ "${out}" = "" ] || ng "${LINENO}"
+
+out=$(echo a | ./plus)
 [ "$?" = 1 ]      || ng "${LINENO}"
 [ "${out}" = "" ] || ng "${LINENO}"
 
