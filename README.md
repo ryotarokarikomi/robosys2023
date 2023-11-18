@@ -30,12 +30,11 @@ $ seq 10 | ./plus
 ## 必要なソフトウェア
   * Python
     * テスト済み: 3.7 ~ 3.10
+    * ![test](https://github.com/ryotarokarikomi/robosys2023/actions/workflows/test.yml/badge.svg)
 
 
 ## テスト環境
 * Ubuntu
-* テスト結果: 
-![test](https://github.com/ryotarokarikomi/robosys2023/actions/workflows/test.yml/badge.svg)
 
 
 ## 著作権・ライセンス
