@@ -21,7 +21,7 @@ $ git clone git@github.com:ryotarokarikomi/robosys2023.git
 $ cd robosys2023
 ```
 * 実行例  
-10までの連続番号を足し合わせます。
+5までの連続番号を足し合わせます。
 ```
 $ seq 5 | ./plus
   15 120
