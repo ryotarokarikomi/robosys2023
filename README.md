@@ -19,6 +19,7 @@ $ git clone git@github.com:ryotarokarikomi/robosys2023.git
 ### 起動手順
 以下のコマンドでplusコマンドに実行許可を与える。
 ```
+$ cd robosys2023
 $ chmod +x plus
 ```
 ## 必要なソフトウェア
