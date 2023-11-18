@@ -7,7 +7,6 @@
 
 ## plusコマンド
 このコマンドは標準入力から入力された数字を足し合わせます。
-![test](https://github.com/ryotarokarikomi/robosys2023/actions/workflows/test.yml/badge.svg)
 
 ## 使い方
 ### ダウンロード方法
@@ -35,6 +34,8 @@ $ seq 10 | ./plus
 
 ## テスト環境
 * Ubuntu
+* テスト結果: 
+![test](https://github.com/ryotarokarikomi/robosys2023/actions/workflows/test.yml/badge.svg)
 
 
 ## 著作権・ライセンス
