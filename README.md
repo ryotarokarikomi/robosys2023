@@ -21,7 +21,7 @@ $ git clone git@github.com:ryotarokarikomi/robosys2023.git
 ```
 $ cd robosys2023
 ```
-* 実行例
+* 実行例  
 10までの連続番号を足し合わせる
 ```
 $ seq 10 | ./plus
