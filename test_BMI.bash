@@ -9,18 +9,18 @@ ng(){
 
 res=0
 
-out=$(echo 62 174 | ./calculate_BMI)
+out=$(echo 62 174 | ./BMI)
 [ "${out}" = 20.48 ] || ng "${LINENO}"
 
-out=$(echo あ | ./calculate_BMI)
+out=$(echo あ | ./BMI)
 [ "$?" = 1 ] || ng "${LINENO}"
 [ "${out}" = "" ] || ng "${LINENO}"
 
-out=$(echo a | ./calculate_BMI)
+out=$(echo a | ./BMI)
 [ "$?" = 1 ] || ng "${LINENO}"
 [ "${out}" = "" ] || ng "${LINENO}"
 
-out=$(echo | ./calculate_BMI)
+out=$(echo | ./BMI)
 [ "$?" = 1 ] || ng "${LINENO}"
 [ "${out}" = "" ] || ng "${LINENO}"
 
