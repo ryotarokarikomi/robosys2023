@@ -1,6 +1,6 @@
 # robosys2023
-***ロボットシステム学***
-このレポジトリはplusコマンドと、そのリグレッションテストのプログラムを記述しています。
+***ロボットシステム学***  
+このレポジトリはplusコマンドとclculate_BMIコマンド、それぞれのリグレッションテストのプログラムを記述しています。
 
 ## plusコマンド
 このコマンドは入力された数字の足し合わせと階乗を出力します。
@@ -27,7 +27,7 @@ $ seq 5 | ./plus
 ## 必要なソフトウェア
   * Python
     * テスト済み: 3.7 ~ 3.10
-    * ![test](https://github.com/ryotarokarikomi/robosys2023/actions/workflows/test.yml/badge.svg)
+    * ![test](https://github.com/ryotarokarikomi/robosys2023/actions/workflows/test_plus.yml/badge.svg)
 
 
 ## テスト環境
