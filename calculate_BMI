@@ -1,0 +1,5 @@
+#!/usr/bin/python3
+# SPDX-FilecopyrightText: 2023 Ryotaro Karikomi ryotaro.karikomi@gmail.com
+# SPDX-License-Identifier: BSD-3-Clause
+
+body_weight = float(input("Input your body weight >"))
