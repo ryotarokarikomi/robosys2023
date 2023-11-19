@@ -16,7 +16,7 @@ while True:
 while True:
   try:
     h = input("Input your height[cm] >")
-    height = float(h)
+    height = float(h) / 100
     break
   except EOFError as e:
     print(e)
@@ -25,4 +25,7 @@ while True:
     print(e)
 
 print("weight:", weight, "[kg]")
-print("height:", height, "[cm]")
+print("height:", height * 100, "[cm]")
+
+BMI = round(weight / pow(height, 2), 2)
+print("Your BMI:", BMI)
