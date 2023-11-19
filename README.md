@@ -21,7 +21,7 @@ $ git clone git@github.com:ryotarokarikomi/robosys2023.git
 $ cd robosys2023
 ```
 * 実行例  
-5までの連続番号を足し合わせと階乗を出力します。
+5までの連続番号の足し合わせと階乗を出力します。
 ```
 $ seq 5 | ./plus
   15 120
