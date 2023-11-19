@@ -2,34 +2,10 @@
 # SPDX-FilecopyrightText: 2023 Ryotaro Karikomi ryotaro.karikomi@gmail.com
 # SPDX-License-Identifier: BSD-3-Clause
 
-while True:
-  try:
-    w, h = input("Input your body weight[kg] and height[cm] >\n").split()
-    weight = float(w)
-    height = float(h) / 100
-    break
-  except EOFError as e:
-    print(e)
-    break
-  except ValueError as e:
-    print(e)
+w, h = input().split()
+weight = float(w)
+height = float(h) / 100
     
-'''
-while True:
-  try:
-    h = input("Input your height[cm] >")
-    height = float(h) / 100
-    break
-  except EOFError as e:
-    print(e)
-    break
-  except ValueError as e:
-    print(e)
-'''
-
-
-print("weight:", weight, "[kg]")
-print("height:", height * 100, "[cm]")
 
 BMI = round(weight / pow(height, 2), 2)
-print("Your BMI:", BMI)
+print(BMI)
