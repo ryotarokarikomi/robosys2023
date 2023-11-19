@@ -10,6 +10,8 @@ ng(){
 res=0
 
 out=($(seq 5 | ./plus))
+echo "out=(seq 5 | ./plus)"
+echo "out=(${out[0]} ${out[1]})"
 [ "${out[0]}" = 15 ] || ng "${LINENO}"
 [ "${out[1]}" = 120 ] || ng "${LINENO}"
 
