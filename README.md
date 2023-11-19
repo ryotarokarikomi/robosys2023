@@ -49,7 +49,8 @@ $ echo 62 174 | ./BMI
 ## 必要なソフトウェア
   * Python
     * テスト済み: 3.7 ~ 3.10
-    * ![test](https://github.com/ryotarokarikomi/robosys2023/actions/workflows/test_plus.yml/badge.svg)
+    * plus:![test](https://github.com/ryotarokarikomi/robosys2023/actions/workflows/test_plus.yml/badge.svg)
+    * BMI: ![test](https://github.com/ryotarokarikomi/robosys2023/actions/workflows/test_BMI.yml/badge.svg)
 
 
 ## テスト環境
