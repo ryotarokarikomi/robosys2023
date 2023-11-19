@@ -4,15 +4,17 @@
 
 while True:
   try:
-    w = input("Input your body weight[kg] >")
+    w, h = input("Input your body weight[kg] and height[cm] >\n").split()
     weight = float(w)
+    height = float(h) / 100
     break
   except EOFError as e:
     print(e)
     break
   except ValueError as e:
     print(e)
-
+    
+'''
 while True:
   try:
     h = input("Input your height[cm] >")
@@ -23,6 +25,8 @@ while True:
     break
   except ValueError as e:
     print(e)
+'''
+
 
 print("weight:", weight, "[kg]")
 print("height:", height * 100, "[cm]")
